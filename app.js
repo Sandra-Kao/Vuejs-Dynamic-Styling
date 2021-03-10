@@ -7,20 +7,6 @@ Vue.createApp({
             backgroundColor: 'green'
         }
     },
-    computed: {
-        classNameUser1() {
-            if (this.userInputText === 'user1') {
-                return true;
-            }
-            return false;
-        },
-        classNameUser2() {
-            if (this.userInputText === 'user2') {
-                return true;
-            }
-            return false;
-        }
-    },
     methods: {
         toggleParagraph() {
             this.isHidden = !this.isHidden;
