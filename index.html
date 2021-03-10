@@ -21,7 +21,7 @@
         <input type="text" v-model="userInputText" />
         <h5>Please input 'user1' or 'user2'.</h5>
         <!-- (available classes: "user1", "user2") -->
-        <p :class="{user1:classNameUser1,user2:classNameUser2}">
+        <p :class="userInputText">
             Style me!
         </p>
         <hr />
